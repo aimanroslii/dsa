@@ -4,6 +4,7 @@ public class InsertCharOrString {
     public static void main(String[] args) {
         String str = "GeeksGeeks";
         String ch = "for";
+        //Index (position)
         int k = 5;
 
         System.out.println("Original String: " + str);
