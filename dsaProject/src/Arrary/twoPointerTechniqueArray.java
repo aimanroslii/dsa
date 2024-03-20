@@ -7,12 +7,13 @@ package Arrary;
 import java.util.Arrays;
 import java.util.List;
 
+//time complexity : nlogn better than n2
 public class twoPointerTechniqueArray {
 
     public static int isPairSum(List<Integer> A, int N, int x){
         //represents first pointer
         int i=0;
-        //represents secodn pointer
+        //represents second pointer
         int j = N-1;
 
         while(i < j){
